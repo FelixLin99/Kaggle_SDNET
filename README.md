@@ -48,9 +48,9 @@ if __name__ == '__main__':
 ```
 Then get classified image with certainty:
 <div align=center>
-  <img src="https://github.com/FelixLin99/Kaggle_SDNET/raw/master/tmp/img/predict/1.jpg" height=250>
-  <img src="https://github.com/FelixLin99/Kaggle_SDNET/raw/master/tmp/img/predict/3.jpg" height=250>
-  <img src="https://github.com/FelixLin99/Kaggle_SDNET/raw/master/tmp/img/predict/4.jpg" height=250>
+  <img src="https://github.com/FelixLin99/Kaggle_SDNET/raw/master/tmp/img/predict/1.jpg" height=230>
+  <img src="https://github.com/FelixLin99/Kaggle_SDNET/raw/master/tmp/img/predict/3.jpg" height=230>
+  <img src="https://github.com/FelixLin99/Kaggle_SDNET/raw/master/tmp/img/predict/2.jpg" height=230>
     </div>
 <br>
 
