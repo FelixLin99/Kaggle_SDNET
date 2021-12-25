@@ -8,7 +8,7 @@ from torchvision import transforms
 from model import resnet34
 
 
-def main():
+def main(img_path_list):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     data_transform = transforms.Compose(
@@ -18,7 +18,6 @@ def main():
          transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
 
     # load image
-    img_path_list = ["../tulip.jpg", "../rose.jpg"]
     img_list = []
     for img_path in img_path_list:
         assert os.path.exists(img_path), "file: '{}' dose not exist.".format(img_path)
@@ -59,4 +58,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    img_path_list = ["../tulip.jpg", "../rose.jpg"]
+    main(img_path_list)
