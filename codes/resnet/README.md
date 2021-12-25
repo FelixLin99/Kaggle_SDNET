@@ -1,14 +1,14 @@
 
 #-------------------------------#
-# @author: 林澍晖
+# @author: Shuhui Lin
 # @date: 2021/6/15
 #-------------------------------#
 ## 文件结构：
 ```
-  ├── model.py: ResNet模型搭建
-  ├── train_pure.py: 纯Resnet34模型训练脚本
-  ├── train_transfer.py: Resnet34结合迁移学习训练脚本
-  ├── train_transferAndRobust.py: Resnet34结合迁移学习结合数据增强训练脚本
-  ├── predict.py: 单张图像预测脚本
-  └── batch_predict.py: 批量图像预测脚本
+  ├── model.py: Build a ResNet34 model
+  ├── train_pure.py: A training script using only Resnet34
+  ├── train_transfer.py: A training script using Resnet34 and transfer learning
+  ├── train_transferAndRobust.py: A training script using Resnet34, transfer learning and geometric transformations.
+  ├── predict.py: Used to predict an image
+  └── batch_predict.py: Used to predict images
 ```
