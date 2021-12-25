@@ -3,7 +3,7 @@
 # @author: Shuhui Lin
 # @date: 2021/6/15
 #-------------------------------#
-## 文件结构：
+## File structure：
 ```
   ├── model.py: Build a ResNet34 model
   ├── train_pure.py: A training script using only Resnet34
