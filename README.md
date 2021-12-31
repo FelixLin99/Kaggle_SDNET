@@ -3,7 +3,7 @@
 
 <p align="center">
     <img src="https://github.com/FelixLin99/Kaggle_SDNET/raw/master/tmp/img/architecture.png" 
-         width="80%">
+         width="81%">
 </p>
 
 <p align="center">"<i> Train a neural network to automatically detect structural defects with 96% Val_accu! </i>"</p>
